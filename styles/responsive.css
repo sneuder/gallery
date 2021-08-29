@@ -1,0 +1,120 @@
+/*Medias*/
+@media screen and (min-width: 1008px) and (max-width: 1920px) and (orientation: landscape){
+
+	.main-box {
+		width: 60%;
+		margin: 30px 0;
+	}
+
+	.profile-info {
+		width: 80%;
+	}
+
+	.profile-name {
+		font-size: 5vmin;
+	}
+
+	.profile-ubication {
+		font-size: 3vmin;
+	}
+
+	.pff {
+		width: 20vmin;
+		height: 8vmin;
+		margin: 0 10px;
+	}
+
+	.numbers {
+		font-size: 3vmin;
+	}
+
+	.number-desc {
+		font-size: 2vmin;
+	}
+}
+@media screen and (min-width: 1008px) and (max-width: 1920px) and (orientation: portrait){
+
+	.main-box {
+		width: 90%;
+		margin: 50px 0;
+	}
+
+	.gallery-box {
+		grid-auto-columns: 100%;
+		grid-auto-rows: 20vmin;
+	}
+
+	.pff {
+		width: 10vmin;
+		height: 67px;
+		margin: 0 10px;
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+	.main-box {
+		width: 90%;
+		margin: 30px 0;
+	}
+
+	.profile-info {
+		width: 80%;
+	}
+
+	.profile-name {
+		font-size: 7vmin;
+	}
+
+	.profile-ubication {
+		font-size: 3vmin;
+	}
+
+	.pff {
+		width: 25vmin;
+		height: 10vmin;
+		margin: 0 10px;
+	}
+
+	.numbers {
+		font-size: 3vmin;
+	}
+
+	.number-desc {
+		font-size: 2vmin;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+	.main-box {
+		width: 90%;
+		margin: 30px 0;
+	}
+
+	.profile-info {
+		width: 80%;
+	}
+
+	.profile-name {
+		font-size: 7vmin;
+	}
+
+	.profile-ubication {
+		font-size: 3vmin;
+	}
+
+	.pff {
+		width: 20vmin;
+		height: 10vmin;
+		margin: 0 10px;
+	}
+
+	.numbers {
+		font-size: 3vmin;
+	}
+
+	.number-desc {
+		font-size: 2vmin;
+	}
+}
